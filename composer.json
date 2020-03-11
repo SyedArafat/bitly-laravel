@@ -1,5 +1,5 @@
 {
-    "name": "yeamin/bitly-laravel",
+    "name": "yeamin/bitly",
     "description": "A laravel package to maintain bitly api, to short link, get full link, description, status and other features offered by bitly.",
     "type": "library",
     "license": "MIT",
