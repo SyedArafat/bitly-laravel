@@ -33,7 +33,7 @@ composer require yeamin/bitly-laravel
 Register the Service in: **config/app.php**. Add the below line inside providers array. One can find the provide array inside **config/app.php**
 
 ``` php
-Arafat\Bitly\BitlyServiceProvider::class,
+Yeamin\Bitly\BitlyServiceProvider::class,
 ````
 Register the Bitly Facade in: **config/app.php** Add the below line inside 
 aliases array.
