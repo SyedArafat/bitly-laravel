@@ -1,0 +1,34 @@
+{
+    "name": "yeamin/bitly-laravel",
+    "description": "A laravel package to maintain bitly api, to short link, get full link, description, status and other features offered by bitly.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sayed Yeamin Arafat",
+            "email": "syedyeaminarafat@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yeamin\\Bitly\\BitlyServiceProvider"
+            ],
+            "aliases": {
+                "Bitly": "Yeamin\\Bitly\\Facade\\Bitly"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "illuminate/support": "^5.1 || ^6.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yeamin\\Bitly\\": "src/"
+        }
+    }
+}
