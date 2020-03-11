@@ -10,7 +10,7 @@ namespace Yeamin\Bitly;
 
 use GuzzleHttp\Client;
 use Illuminate\Support\ServiceProvider;
-use Arafat\Bitly\Client\BitlyClient;
+use Yeamin\Bitly\Client\BitlyClient;
 
 /**
  * Class BitlyServiceProvider
