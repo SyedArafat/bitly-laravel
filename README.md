@@ -72,7 +72,7 @@ BITLY_ACCESS_TOKEN=your_secret_bitly_access_token
 Usage
 -----
 
-####To Get short URL:
+### To Get short URL:
 ( Do not forget to give http or https in the beginning of your url ) 
 
 ``` php
@@ -88,7 +88,7 @@ Then you can use it directly by calling `Bitly::` like:
 ``` php
 $url = Bitly::getShortUrl('https://www.google.com/'); // http://bit.ly/nHcn3
 ````
-####To Expand URL:
+### To Expand URL:
 
 ``` php
 $shortUrl = app('bitly')->getLongUrl('http://bit.ly/nHcn3'); // https://www.google.com/
